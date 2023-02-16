@@ -1,0 +1,201 @@
+@font-face {
+    font-family: omoriFont;
+    src: url("omori_text_font.ttf");
+}
+body{
+    font-family: omoriFont;
+}
+.site-header__logo{
+    width: 350px;
+    height: 150px;
+}
+.nav{
+    font-size: 30px;
+    padding: 30px;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.omori-background{
+    width: 1300px;
+}
+.omori-body{
+    position: absolute;
+    left: 280px;
+    width:150px;
+    height: 500px; ;
+    top: 400px;
+}
+h2{
+    left: 700px; 
+    top: 330px;
+    font-size: 30px;
+    border-bottom: solid;
+    position: absolute;
+}
+p{
+    position: absolute;
+    left: 500px; 
+    top: 380px;
+    font-size: 25px;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+}
+
+.impinfo{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+
+}
+p3{
+    top: 500px;
+    left: 500px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+p4{
+    padding-left: 60px;
+    padding-right: 60px;
+    top: 550px;
+    left: 500px; 
+}
+p5{
+    top: 600px;
+    left: 500px;
+    padding-left: 33px;
+    padding-right: 33px; 
+}
+p6{
+    top: 650px;
+    left: 500px; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p7{
+    top: 700px;
+    left: 500px; 
+    padding-left: 35px;
+    padding-right: 35px; 
+}
+p8{
+    top: 750px;
+    left: 500px; 
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+p9{
+    top: 800px;
+    left: 500px; 
+    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.info{
+    
+    position: absolute;
+    left: 700px;
+    font-size: 25px;
+}
+p10{
+    top: 500px;
+}
+p11{
+    top: 550px;
+}
+p12{
+    top: 600px;
+}
+p13{
+    top: 650px;
+}
+p14{
+    top: 700px;
+}
+p15{
+    top: 750px;
+}
+p16{
+    top: 800px;
+    width: 30px;
+    width: 150px;
+}
+p17{
+    top: 890px;
+}
+.buttons{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.selectionimage{
+    padding-bottom: 30px;
+    width: 1000px;
+    height: 550px;
+}
+h3{
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+    color: white;
+    font-size: 30px;
+}
+.button-profile{
+    background-color: blueviolet;
+    position: absolute;
+}
+#OMORI{
+    top: 1320px;
+    left: 400px;
+}
+#AUBREY{
+    top: 1320px;
+    left: 600px;
+}
+#KEL{
+    top: 1320px;
+    left: 800px;
+}
+#HERO{
+    top: 1520px;
+    left: 400px;
+}
+#MARI{
+    top: 1520px;
+    left: 600px;
+}
+#BASIL{
+    top: 1520px;
+    left: 800px;
+}
+.nameper{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 1450px;
+}
+p18{
+    left: 430px;
+}
+p19{
+    left: 625px;
+}
+p20{
+    left: 850px;
+}
+p2{
+    padding: 30px;
+    font-size: 20px; 
+    position: absolute;
+    top: 1710px;
+}

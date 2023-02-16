@@ -1,0 +1,120 @@
+@font-face {
+    font-family: omoriFont;
+    src: url("omori_text_font.ttf");
+}
+body{
+    font-family: omoriFont;
+}
+.site-header__logo{
+    width: 350px;
+    height: 150px;
+}
+.nav{
+    font-size: 30px;
+    padding: 30px;
+}
+.head-space__image{
+    width: 1300px;
+    height: 550px;
+    padding-top: 30px;
+}
+.newproduct-shop{
+    background: black;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    top: 700px;
+    left: 370px;
+}
+.news-shop{
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    top: 245px;
+    left: 150px;
+}
+h1{
+    text-align: center;
+    border-bottom: solid;
+}
+.watch-video{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+h2{
+    text-align: center;
+    border-bottom: solid;
+    font-size: 35px;
+    margin-bottom: 70px;
+    
+}
+.superior-buttons{
+    padding: 20px;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+}
+.box{
+    padding: 50px;
+    width: 780px;
+    height: 600px;
+    
+}
+.omori-switch{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 1450px;
+    left: 250px;
+}
+h3{
+    color: white;
+    left: 700px;
+    top: 1490px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+}
+.switch-buttons{
+    padding: 20px;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    position: absolute;
+    
+}
+#switchButton{
+    left: 700px;
+    top: 1620px;
+}
+h4{
+    color: white;
+    left: 690px;
+    top: 1680px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+}
+
+#omocatButton{
+    left: 600px;
+    top: 1830px;
+}
+#fangamerButton{
+    left: 800px;
+    top: 1830px;
+}
+#gamestopButton{
+    left: 600px;
+    top: 1930px;
+}
+#bestbuyButton{
+    left: 800px;
+    top: 1930px;
+}
+p2{
+    padding: 30px;
+    font-size: 20px; 
+    position: absolute;
+    top: 2050px;
+}
