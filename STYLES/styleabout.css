@@ -20,20 +20,13 @@ h1{
     font-size: 40px;
 }
 .maripic{
-    margin: 20px;
-    margin-left: 70px;
     width: 550px;
     height: 400px;
 }
-p{
-    text-align: center;
+.p{
     font-size: 32px;
-    position: absolute;
-    top: 320px;
-    left: 700px;
-    width: 518px;
-    height: 282px;
     color: #41107E;
+    ;
 }
 h2{
     margin-top: 60px;
@@ -177,4 +170,12 @@ p6{
 }
 #bandcamp{
     right: 15px;
+}
+.grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 700px 470px;
+    grid-template-rows: 400px;
+    align-items: center;
+    justify-content: center;
 }
