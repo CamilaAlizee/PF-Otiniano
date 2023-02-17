@@ -4,6 +4,8 @@
 }
 body{
     font-family: omoriFont;
+    margin: 0px;
+    background-color: #181518;
 }
 .site-header__logo{
     width: 350px;
@@ -123,8 +125,8 @@ h4{
     align-items: center;
     justify-content: center;
 }
-main{
-    background-color: #181518;
+header{
+    background-color: #ffffff;
 }
 .gridtext{
     display: grid;
