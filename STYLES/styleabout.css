@@ -144,6 +144,13 @@ header{
     align-items: center;
     justify-content: center;
 }
+.gridimagemo{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 420px;
+    align-items: center;
+    justify-content: center;
+}
 .emotionsingame{
     width: 268px;
     height: 368px;

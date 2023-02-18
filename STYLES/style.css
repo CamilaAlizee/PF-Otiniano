@@ -38,8 +38,10 @@ h1{
     border-bottom: solid;
 }
 .watch-video{
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 40px;
+    width: 600px;
+    height: 340px;
+
 }
 h2{
     text-align: center;
