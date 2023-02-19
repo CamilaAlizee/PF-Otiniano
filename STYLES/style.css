@@ -4,34 +4,64 @@
 }
 body{
     font-family: omoriFont;
+    margin: 0px;
+    background-color: #ffffff;
 }
 .site-header__logo{
     width: 350px;
     height: 150px;
 }
+.navgrid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 120px 120px 180px 120px 120px;
+    grid-template-rows: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
 .nav{
     font-size: 30px;
-    padding: 30px;
+    text-decoration: none;
 }
-.head-space__image{
-    width: 1300px;
-    height: 550px;
-    padding-top: 30px;
+.nav:hover{
+    transform: scale(1.1);
+    color: blueviolet;
 }
-.newproduct-shop{
-    background: black;
-    color: white;
-    position: absolute;
-    font-size: 25px;
-    top: 700px;
-    left: 370px;
+.slider-frame{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    
 }
-.news-shop{
-    width: 1000px;
-    height: 450px;
-    position: absolute;
-    top: 245px;
-    left: 150px;
+.slider-frame ul{
+    display: flex;
+    width: 301%;
+    animation: slide 50s infinite ease-in-out;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+    
+}
+.slider-frame img{
+    width: 800px;
+    height: 400px;
+}
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
 }
 h1{
     text-align: center;
@@ -47,7 +77,7 @@ h2{
     text-align: center;
     border-bottom: solid;
     font-size: 35px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     
 }
 .superior-buttons{
@@ -56,67 +86,84 @@ h2{
     width: 110px;
     background-color: black;
 }
-.box{
-    padding: 50px;
-    width: 780px;
-    height: 600px;
-    
+.container{
+
+    width: 870px;
+    height: 500px;
+    background-color: black;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+.omori-nintendo{
+    padding-top: 20px;
+    position: absolute;
+    width: 408px;
+    height: 450px;
+    margin-left: 20px;
+}
+.gridtext{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 430px;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 20px;
+}
+.gridbuttons6{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 190px 140px;
+    grid-template-rows: 120px 120px 120px;
+    align-items: center;
+    justify-content: right;
+    padding-right: 70px;
+}
+.gridtopbuttons{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 120px;
+    align-items: center;
+    justify-content: center;
+
+}
+h3{
+    color: #ffffff;
+    font-size: 32px;
 }
 .omori-switch{
     width: 400px;
     height: 600px;
-    position: absolute;
-    top: 1450px;
-    left: 250px;
-}
-h3{
-    color: white;
-    left: 700px;
-    top: 1490px;
-    position: absolute;
-    font-size: 30px;
-    text-align: center;
 }
 .switch-buttons{
     padding: 20px;
     height: 30px;
     width: 110px;
+    border-style: solid;
+    border-color: #ffffff;
     background-color: black;
-    position: absolute;
     
-}
-#switchButton{
-    left: 700px;
-    top: 1620px;
 }
 h4{
     color: white;
-    left: 690px;
-    top: 1680px;
-    position: absolute;
-    font-size: 30px;
-    text-align: center;
+    font-size: 33px;
 }
 
-#omocatButton{
-    left: 600px;
-    top: 1830px;
-}
-#fangamerButton{
-    left: 800px;
-    top: 1830px;
-}
-#gamestopButton{
-    left: 600px;
-    top: 1930px;
-}
-#bestbuyButton{
-    left: 800px;
-    top: 1930px;
-}
 p2{
     padding: 30px;
     font-size: 20px; 
     position: absolute;
     top: 2050px;
+}
+p8{
+    padding: 30px;
+    font-size: 20px; 
+    position: absolute;
+    top: 2000px;
 }
