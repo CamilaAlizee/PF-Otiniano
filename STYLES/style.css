@@ -118,11 +118,11 @@ h2{
 .gridbuttons6{
     display: grid;
     text-align: center;
-    grid-template-columns: 190px 140px;
+    grid-template-columns: 190px 190px;
     grid-template-rows: 120px 120px 120px;
     align-items: center;
     justify-content: right;
-    padding-right: 70px;
+    padding-right: 30px;
 }
 .gridtopbuttons{
     display: grid;
@@ -148,6 +148,7 @@ h3{
     border-style: solid;
     border-color: #ffffff;
     background-color: black;
+    margin: auto;
     
 }
 h4{

@@ -26,53 +26,66 @@
         </header>
         <main>
             <h1>CHARACTERS</h1>
-            <div  style="text-align: center;" >
-                <img src="../IMAGENES/omoriwhitespace.png" class="omori-background">
-            </div>
-            
-            <img src="../IMAGENES/Omori_Fullbody.png" class="omori-body">
-            <h2>OMORI</h2>
-            <p>OMORI is the titular character, a black-and-white boy living in 
-            the WHITE SPACE for as long as he can remember.
-            </p>
-            <p3 class="impinfo">GENDER</p3>
-            <p4 class="impinfo">AGE</p4>
-            <p5 class="impinfo">BIRTHDAY</p5> 
-            <p6 class="impinfo">LEAD SKILL</p6>       
-            <p7 class="impinfo">LOCATION</p7>
-            <p8 class="impinfo">RELATIVES</p8>
-            <p9 class="impinfo">RELATIONS</p9>
-            
-            <p10 class="info">MALE</p10>
-            <p11 class="info">12 (APPROXIMATELY)</p11>
-            <p12 class="info">JULY 20TH</p12>
-            <p13 class="info">CUT OBSTACLES</p13>
-            <p14 class="info">WHITE SPACE</p14>
-            <p15 class="info">MARI (OLDER SISTER)</p15>
-            <p16 class="info">HERO (FRIEND)
-                KEL (FRIEND)
-                AUBREY (FRIEND)
+            <div class="infocontainer" id="background">
+                <div class="gridimg">
+                    <img src="../IMAGENES/Omori_Fullbody.png" class="omori-body" id="imgchange">
+                </div>
                 
-            </p16>
-            <p17 class="info">BASIL (BEST FRIEND)</p17>
-            <div  style="text-align: center;" >
-                <button class="buttons" >PROTAGONISTS HEAD SPACE</button>
-                <button class="buttons" >BOSSES HEAD SPACE</button>
-                <button class="buttons" >PROTAGONISTS REAL WORLD</button>
+                <div class="gridtext1">
+                    <h2 id="NAME">OMORI</h2>
+                    <p id="INFO">This is OMORI. He's been living in WHITE SPACE for as long as he 
+                        <br> 
+                        can remember, but it seems like he can't remember much else.
+                    </p> 
+                </div>
+                <div class="gridtext2">
+                    <p1 class="impinfo">GENDER</p1>
+                    <p2 class="info" id="GENDER">MALE</p2>
+                    <p3 class="impinfo">AGE</p3>
+                    <p4 class="info" id="AGE">12</p4>
+                    <p5 class="impinfo">BIRTHDAY</p5>
+                    <p6 class="info" id="BIRTHDAY">JULY 20TH</p6>
+                    <p7 class="impinfo">LEAD SKILL</p7>  
+                    <p8 class="info" id="LEADSKILL">CUT OBSTACLES</p8>
+                    <p9 class="impinfo">LOCATION</p9>
+                    <p10 class="info" id="LOCATION">WHITE SPACE</p10>
+                    <p11 class="impinfo">RELATIVES</p11>
+                    <p12 class="info" id="RELATIVES">MARI (OLDER SISTER)</p12>
+                    <p13 class="impinfo"> <br> RELATIONS</p13>
+                    <p14 class="info" id="RELATIONS">HERO (FRIEND)<br> KEL (FRIEND)<br> 
+                        AUBREY (FRIEND)<br> BASIL (BEST FRIEND)
+                    </p14>
+                </div>
             </div>
+
+            <h3>CHARACTERS SELECTION</h3>
             <div  style="text-align: center;" >
-                <img src="../IMAGENES/selectionimage.png" class="selectionimage">
+                
             </div>
-            <h3>CHARACTERS SECTION</h3>
-            <button class="button-profile" id="OMORI"><img src="../IMAGENES/Omori_Portrait.png" ></button>
-            <button class="button-profile" id="AUBREY"><img src="../IMAGENES/DWAUBREY1.png"></button>
-            <button class="button-profile" id="KEL"><img src="../IMAGENES/DWKEL1.png"></button>
-            <button class="button-profile" id="HERO"><img src="../IMAGENES/DWHERO.png"></button>
-            <button class="button-profile" id="MARI"><img src="../IMAGENES/MARI.png"></button>
-            <button class="button-profile" id="BASIL"><img src="../IMAGENES/DWBASIL3.png"></button>      
-            <p18 class="nameper">OMORI</p18>
-            <p19 class="nameper">AUBREY</p19>
-            <p20 class="nameper">KEL</p20>
+            <div class="containercha">
+                <div class="gridcha">
+                    <div class="button-profile" id="OMORI">
+                        <a href="#background"><img src="../IMAGENES/Omori.gif" class="omorimg"></a> 
+                    </div>
+                    <div class="button-profile" id="AUBREY">
+                        <a href="#background"><img src="../IMAGENES/Aubrey.gif" class="omorimg"></a>
+                    </div>
+                    <div class="button-profile" id="KEL">
+                        <a href="#background"><img src="../IMAGENES/Kel.gif" class="omorimg"></a>
+                    </div>
+                    <div class="button-profile" id="HERO">
+                        <a href="#background"><img src="../IMAGENES/Hero.gif" class="omorimg"></a>
+                    </div>
+                    <div class="button-profile" id="MARI">
+                        <a href="#background"><img src="../IMAGENES/Mari.gif" class="omorimg"></a>
+                    </div>
+                    <div class="button-profile" id="BASIL">
+                        <a href="#background"><img src="../IMAGENES/Basil.gif" class="omorimg"></a>
+                    </div>
+                </div>
+                
+            </div>   
+
         </main>
         <footer>
             <p2>OMORI © OMOCAT, LLC.</p2>
@@ -91,6 +104,7 @@
                 </a>
             </div>
         </footer>
+<script src="../script.js"></script>
     </body>
        
 </html>

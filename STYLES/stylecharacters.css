@@ -4,6 +4,8 @@
 }
 body{
     font-family: omoriFont;
+    margin: 0px;
+    background-color: #ffffff;
 }
 .site-header__logo{
     width: 350px;
@@ -32,114 +34,79 @@ h1{
     text-align: center;
     font-size: 40px;
 }
-.omori-background{
-    width: 1300px;
+.infocontainer{
+    width: 900px;
+    height: 690px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    
+    background-size:1300px ;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#background{
+    background-image: url(../IMAGENES/omoriwhitespace.png);
+}
+.gridimg{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 350px;
+    grid-template-rows: 600px;
+    align-items: center;
+    padding-top: 50px;
 }
 .omori-body{
-    position: absolute;
-    left: 280px;
-    width:150px;
-    height: 500px; ;
-    top: 400px;
+    width:auto;
+    height: 550px;
+    margin: auto;
 }
 h2{
-    left: 700px; 
-    top: 330px;
-    font-size: 30px;
-    border-bottom: solid;
-    position: absolute;
+    font-size: 40px;
 }
 p{
-    position: absolute;
-    left: 500px; 
-    top: 380px;
     font-size: 25px;
-    width: 500px;
-    height: 70px;
     text-align: center;
-}
 
+}
+p13{
+    height: 140px;
+}
 .impinfo{
     background-color: black;
     color: white;
     font-size: 25px;
-    position: absolute;
-
-}
-p3{
-    top: 500px;
-    left: 500px;
-    padding-left: 45px;
-    padding-right: 45px;
-}
-p4{
-    padding-left: 60px;
-    padding-right: 60px;
-    top: 550px;
-    left: 500px; 
-}
-p5{
-    top: 600px;
-    left: 500px;
-    padding-left: 33px;
-    padding-right: 33px; 
-}
-p6{
-    top: 650px;
-    left: 500px; 
-    padding-left: 30px;
-    padding-right: 30px;
-}
-p7{
-    top: 700px;
-    left: 500px; 
-    padding-left: 35px;
-    padding-right: 35px; 
-}
-p8{
-    top: 750px;
-    left: 500px; 
-    padding-left: 30px;
-    padding-right: 30px; 
-}
-p9{
-    top: 800px;
-    left: 500px; 
-    padding: 30px;
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
 .info{
-    
-    position: absolute;
-    left: 700px;
+    text-align: left;
     font-size: 25px;
+    padding-left: 50px;
 }
-p10{
-    top: 500px;
+.gridtext1{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 600px;
+    grid-template-rows: 20px 100px;
+    align-items: center;
+    justify-content: right;
+    padding-top: 20px;
 }
-p11{
-    top: 550px;
+.gridtext2{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 200px 290px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 170px;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 20px;
+    padding-right: 40px;
 }
-p12{
-    top: 600px;
-}
-p13{
-    top: 650px;
-}
-p14{
-    top: 700px;
-}
-p15{
-    top: 750px;
-}
-p16{
-    top: 800px;
-    width: 30px;
-    width: 150px;
-}
-p17{
-    top: 890px;
+.grid2{
+    display: grid;
+    text-align: center;
+    grid-template-columns:300px;
+    
 }
 .buttons{
     padding: 20px;
@@ -149,66 +116,57 @@ p17{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.containercha{
+    width: 1100px;
+    height: 580px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-size:1300px ;
+    background-image: url(../IMAGENES/selectionimage.png);
+    background-size: 1080px;
+}
+.gridcha{
+    display: grid;
+    text-align: center;
+    grid-template-columns:220px 220px 220px;
+    grid-template-rows: 220px 220px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 20px;
+}
 .selectionimage{
     padding-bottom: 30px;
-    width: 1000px;
+    width: 1300px;
     height: 550px;
 }
 h3{
-    width: 150px;
     text-align: center;
-    position: absolute;
-    top: 1200px;
-    left: 600px;
-    color: white;
-    font-size: 30px;
+    color:white;
+    font-size: 40px;
+    background-color: black;
 }
 .button-profile{
-    background-color: blueviolet;
-    position: absolute;
+    cursor: pointer;
+    border-style:solid;
+    border-width: 2px;
+    border-color:white ;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }
-#OMORI{
-    top: 1320px;
-    left: 400px;
+.omorimg{
+    width: 150px;
 }
-#AUBREY{
-    top: 1320px;
-    left: 600px;
+.button-profile :hover{
+    transform: scale(1.1);
 }
-#KEL{
-    top: 1320px;
-    left: 800px;
-}
-#HERO{
-    top: 1520px;
-    left: 400px;
-}
-#MARI{
-    top: 1520px;
-    left: 600px;
-}
-#BASIL{
-    top: 1520px;
-    left: 800px;
-}
+
 .nameper{
     position: absolute;
     color: white;
     font-size: 25px;
     top: 1450px;
-}
-p18{
-    left: 430px;
-}
-p19{
-    left: 625px;
-}
-p20{
-    left: 850px;
-}
-p2{
-    padding: 30px;
-    font-size: 20px; 
-    position: absolute;
-    top: 1710px;
 }
