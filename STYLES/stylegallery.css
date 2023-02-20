@@ -26,12 +26,6 @@ body{
     transform: scale(1.1);
     color: blueviolet;
 }
-h1{
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-}
 .buttons{
     padding: 20px;
     text-align: center;
@@ -40,21 +34,45 @@ h1{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.album{
-    padding-bottom: 60px;
-    width: 700px;
-    height: 550px;
+
+.container{
+    width: 670px;
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    max-width: 70%;
 }
-.gallery{
-    position: absolute;
-    width: 600px;
-    height: 480px;
-    left: 370px;
-    top: 450px;
+.imgs{
+    width: 120px;
+    margin: auto;
 }
-p2{
-    padding: 30px;
-    font-size: 20px; 
-    position: absolute;
-    top: 980px;
+.albumgrid{
+    padding-top: 10px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-template-rows: 180px 180px 180px 180px;
+    max-width: 50%;
+
+
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 30px;
+    justify-content: right;
+    padding-top:40px ;
+}
+.container::-webkit-scrollbar{
+    width: 15px;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color:rgb(164, 163, 165);
 }

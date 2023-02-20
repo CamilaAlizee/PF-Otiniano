@@ -32,12 +32,13 @@ body{
     text-align: center;
     width: 100%;
     overflow: hidden;
+    margin-top: 30px;
     
 }
 .slider-frame ul{
     display: flex;
     width: 301%;
-    animation: slide 50s infinite ease-in-out;
+    animation: slide 50s infinite ease-out;
     margin: 0px;
     padding-left: 0px;
     padding-top: 20px;
@@ -87,7 +88,6 @@ h2{
     background-color: black;
 }
 .container{
-
     width: 870px;
     height: 500px;
     background-color: black;
@@ -97,7 +97,6 @@ h2{
     margin: auto;
     margin-top: 30px;
     padding-top: 50px;
-    margin-bottom: 80px;
 }
 .omori-nintendo{
     padding-top: 20px;
@@ -162,9 +161,10 @@ p2{
     position: absolute;
     top: 2050px;
 }
-p8{
-    padding: 30px;
-    font-size: 20px; 
-    position: absolute;
-    top: 2000px;
+.gridfooter{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 30px;
+    justify-content: right;
+    padding-top:40px ;
 }

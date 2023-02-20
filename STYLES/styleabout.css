@@ -32,12 +32,6 @@ body{
     font-size: 30px;
     padding: 30px;
 }
-h1{
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-}
 .maripic{
     width: 550px;
     height: 400px;
@@ -66,13 +60,6 @@ h2{
 .underwater{
     width: 500px;
     height: 400px;
-}
-p8{
-    padding: 30px;
-    font-size: 20px; 
-    color: white;
-    position: absolute;
-    top: 3460px;
 }
 .p3{
     font-size: 32px;
@@ -126,6 +113,7 @@ h4{
     grid-template-rows: 400px;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 header{
     background-color: #ffffff;
@@ -160,4 +148,11 @@ header{
 footer{
     padding: 20px;
     background-color:#181518 ;
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 30px;
+    justify-content: right;
+    padding-top:40px ;
 }

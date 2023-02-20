@@ -28,12 +28,6 @@ body{
     transform: scale(1.1);
     color: blueviolet;
 }
-h1{
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-}
 .infocontainer{
     width: 900px;
     height: 690px;
@@ -169,4 +163,11 @@ h3{
     color: white;
     font-size: 25px;
     top: 1450px;
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 30px;
+    justify-content: right;
+    padding-top:40px ;
 }
