@@ -156,3 +156,95 @@ footer{
     justify-content: right;
     padding-top:40px ;
 }
+@media (max-width:576px){
+
+    .site-header__logo{
+        width: 50%;
+        height: 50%;
+    }
+    .navgrid{
+        grid-template-columns: 13% 15% 28% 15% 20%; 
+    }
+    .nav{
+        font-size: 18px;
+    }
+    .grid{
+        margin-top: 10px;
+        grid-template-columns: 90%;
+        grid-template-rows: 50% 55%;
+        align-items: center;
+        justify-content: center;
+    }
+    .maripic{
+        width: 100%;
+        height: auto;
+    }
+    .p{
+        font-size: 20px;
+    }
+    h2{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .gridtext{
+        grid-template-columns: 90%;
+        grid-template-rows: 100%;
+        position: relative;
+    }
+    .p2{
+        font-size: 25px;
+    }
+    .gridimages{
+        padding-top: 30px;
+        grid-template-columns: 80%;
+        grid-template-rows: 50%;
+        padding-bottom: 30px;
+    }
+    .sweetheart{
+        width: 90%;
+        height: auto;
+    }
+    .underwater{
+        width: 90%;
+        height: auto;
+    }
+    .p3{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .p4{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .battle1{
+        width: 90%;
+        height: auto;
+    }
+    .battle2{
+        width: 90%;
+        height: auto;
+    }
+    .p5{
+        font-size: 25px;
+        color: white;
+        padding-bottom: 20px;
+    }
+    h4{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .p6{
+        padding-top: 20px;
+        font-size: 25px;
+        color: white;
+    }
+    .emotions-guide{
+        width: 50%;
+        height: auto;
+    }
+
+}
