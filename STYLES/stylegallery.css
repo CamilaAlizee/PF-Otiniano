@@ -52,6 +52,7 @@ body{
 .imgs{
     width: 120px;
     margin: auto;
+    cursor: pointer;
 }
 .albumgrid{
     padding-top: 10px;
@@ -59,9 +60,6 @@ body{
     display: grid;
     grid-template-columns: 140px 140px 140px 140px;
     grid-template-rows: 180px 180px 180px 180px;
-    max-width: 50%;
-
-
 }
 .gridfooter{
     display: grid;
@@ -75,4 +73,30 @@ body{
 }
 .container::-webkit-scrollbar-thumb{
     background-color:rgb(164, 163, 165);
+}
+.ful-img{
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.ful-img span{
+    background: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    cursor: pointer;
 }

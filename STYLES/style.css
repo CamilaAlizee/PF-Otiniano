@@ -168,3 +168,7 @@ p2{
     justify-content: right;
     padding-top:40px ;
 }
+/* Media query - Mobile */
+@media (max-width:576){
+
+}

@@ -5,6 +5,9 @@ let heroBtn = document.getElementById("HERO");
 let mariBtn = document.getElementById("MARI");
 let basilBtn = document.getElementById("BASIL");
 let imgchange = document.getElementById("imgchange");
+const fulImgBox = document.getElementById("fulImgBox"),
+fulImg = document.getElementById("fulImg");
+
 
 omoriBtn.onclick = function(){
     imgchange.src = "../IMAGENES/Omori_Fullbody.png";
@@ -77,4 +80,14 @@ basilBtn.onclick = function(){
     document.getElementById("LOCATION").innerHTML = "OLD SHOE";
     document.getElementById("RELATIVES").innerHTML = "GRANDMOTHER";
     document.getElementById("RELATIONS").innerHTML = "OMORI (BEST FRIEND) <br> HERO (FRIEND) <br> KEL (FRIEND) <br> AUBREY (FRIEND) <br> MARI (FRIEND)";
+}
+
+
+function openFullImg(reference){
+    fulImgBox.style.display = "flex";
+    fulImg.src = reference
+}
+
+function closeImg(){
+    fulImgBox.style.display = "none";
 }
