@@ -5,6 +5,8 @@
 body{
     font-family: omoriFont;
     margin: 0px;
+}
+.backblack{
     background-color: #181518;
 }
 .navgrid{
@@ -41,14 +43,7 @@ body{
     color: #41107E;
     ;
 }
-h2{
-    margin-top: 60px;
-    color: white;
-    background-color: blueviolet;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
+
 .p2{
     font-size: 32px;
     color: white;
@@ -61,21 +56,13 @@ h2{
     width: 500px;
     height: 400px;
 }
-.p3{
-    font-size: 32px;
-    color: white;
-}
-h3{
+h5{
     margin-top: 20px;
     color: white;
     background-color: blueviolet;
     text-align: center;
     font-size: 40px;
     margin-bottom: 10px;
-}
-.p4{
-    font-size: 32px;
-    color: white; 
 }
 .battle1{
     width: 500px;
@@ -85,21 +72,14 @@ h3{
     width: 500px;
     height: 400px;
 }
-.p5{
-    font-size: 32px;
-    color: white;
-}
+
 h4{
-    margin-top: 10px;
+
     color: white;
     background-color: blueviolet;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 10px;
-}
-.p6{
-    font-size: 32px;
-    color: white;
+    margin-bottom: 0px;
 }
 .emotions-guide{
     width: 500px;
@@ -118,7 +98,7 @@ h4{
 header{
     background-color: #ffffff;
 }
-.gridtext{
+.gridtexta{
     display: grid;
     text-align: center;
     grid-template-columns: 800px;
@@ -145,16 +125,13 @@ header{
     width: 268px;
     height: 368px;
 }
-footer{
-    padding: 20px;
-    background-color:#181518 ;
-}
 .gridfooter{
     display: grid;
     grid-template-columns: 40px 40px 40px 40px;
     grid-template-rows: 30px;
     justify-content: right;
     padding-top:40px ;
+    padding-bottom: 20px;
 }
 @media (max-width:576px){
 

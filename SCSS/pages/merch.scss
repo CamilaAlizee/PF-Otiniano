@@ -1,0 +1,109 @@
+
+.chagrid{
+    display: grid;
+    grid-template-columns: 250px 500px 250px;
+    grid-template-rows: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+    top: 150px;
+    padding: 0px;
+
+}
+.shopimg{
+    width: 1335px;
+}
+.mari{
+    width: 250px;
+    position: relative;
+    top: 50px;
+}
+.basil{
+    width: 140px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+.merchtitle{
+    width: 450px;
+    margin: auto;
+}
+#grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1006px;
+    grid-template-rows: 30px 300px ;
+    justify-content: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+.grid3{
+    top: 210px;
+}
+.grid4{
+    top: 250px;
+}
+.img-merch{
+    width: 1006px;
+}
+
+#go-button{
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+:root {
+    --animate-duration: 2s;
+}
+#footermerch{
+    position: relative;
+    top: 230px;
+}
+
+@media (max-width:576px){
+
+    .chagrid{
+        grid-template-columns: 25% 40% 25%;
+        grid-template-rows: 60%;
+        top: 30px;
+    }
+    .mari{
+        width: 120%;
+
+    }
+    .basil{
+        width: 70%;
+        position: relative;
+        top: 60px;
+        left: 0px;
+    }
+    .merchtitle{
+        width: 100%;
+    }
+    #grid{
+        grid-template-columns: 90%;
+        grid-template-rows: 25% 80%;
+        padding-bottom: 30px;
+        padding: 0px;
+    }
+    .img-merch{
+        width: 100%;
+    }
+    .grid3{
+        top: -40px;
+    }
+    .grid4{
+        top: -10px;
+    }
+    #go-button{
+        font-size: 25px;
+    }
+    #footermerch{
+        position: static;
+    }
+    
+
+}

@@ -46,6 +46,7 @@ header{
     position: relative;
     top: 150px;
     padding: 0px;
+
 }
 .mari{
     width: 250px;
@@ -62,7 +63,7 @@ header{
     width: 450px;
     margin: auto;
 }
-.grid1{
+#grid{
     display: grid;
     text-align: center;
     grid-template-columns: 1006px;
@@ -70,41 +71,25 @@ header{
     justify-content: center;
     padding-bottom: 30px;
     position: relative;
+}
+.grid3{
     top: 210px;
-}
-.grid2{
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1006px;
-    grid-template-rows: 30px 300px;
-    justify-content: center;
-    padding-bottom: 30px;
-    position: relative;
-    top: 250px;
-}
-.omocat-merch{
-    width: 1006px;
-}
-.omocat-button{
-    background-color: blueviolet;
-    color: white;
-    padding-left: 390px;
-    padding-right: 390px;
-    font-size: 30px;
-    text-decoration: none;
-}
-.fangamer-merch{
-    width: 1006px;
 
 }
-.fangamer-button{
+.grid4{
+    top: 250px;
+}
+.img-merch{
+    width: 1006px;
+}
+
+#go-button{
     background-color: blueviolet;
     color: white;
-    padding-left: 379px;
-    padding-right: 379px;
     font-size: 30px;
     text-decoration: none;
 }
+
 :root {
     --animate-duration: 2s;
   }

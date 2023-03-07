@@ -1,0 +1,210 @@
+
+#background{
+    background-image: url(../IMAGENES/omoriwhitespace.png);
+}
+.infocontainer{
+    width: 900px;
+    height: 690px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    
+    background-size:1300px ;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.gridimg{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 350px;
+    grid-template-rows: 600px;
+    align-items: center;
+    padding-top: 50px;
+        img{
+            width:auto;
+            height: 550px;
+            margin: auto;
+        }
+}
+
+
+p13{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+.gridtext1{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 600px;
+    grid-template-rows: 20px 100px;
+    align-items: center;
+    justify-content: right;
+    padding-top: 20px;
+        p{
+            font-size: 25px;
+            text-align: center;
+        }
+        p15{
+            font-size: 40px;
+            font-weight: bold;
+        }
+}
+.gridtext2{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 200px 290px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 170px;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 20px;
+    padding-right: 40px;
+        .impinfo{
+            background-color: black;
+            color: white;
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+        }
+        .info{
+            text-align: left;
+            font-size: 25px;
+            padding-left: 50px;
+        }
+}
+h6{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    background-color: black;
+}
+.containercha{
+    width: 1100px;
+    height: 580px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-size:1300px ;
+    background-image: url(../IMAGENES/selectionimage.png);
+    background-size: 1080px;
+    background-repeat: no-repeat;
+}
+.gridcha{
+    display: grid;
+    text-align: center;
+    grid-template-columns:220px 220px 220px;
+    grid-template-rows: 220px 220px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.button-profile{
+    cursor: pointer;
+    border-style:solid;
+    border-width: 2px;
+    border-color:white ;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+        img{
+            width: 150px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+}
+@media (max-width:576px){
+    #background{
+        background-image: url(../IMAGENES/backgroundmobile.png);
+    }
+    .infocontainer{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        background-size: 100%;
+    }
+    .gridimg{
+        position:static;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px;
+        align-items: center;
+        padding-top: 20px;
+            img{
+                width:auto;
+                height: 100%;
+                margin: auto;
+                padding: 0px;
+            }
+    }
+    .gridtext1{
+        grid-template-columns: 75%;
+        grid-template-rows: 40px 80%;
+        justify-content: center;
+            p15{
+                font-size: 30px;
+            }
+            p{
+                font-size: 25px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+    }
+    .gridtext2{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 60%;
+        grid-template-rows: 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 120px;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-right: 0px;
+            .impinfo{
+                font-size: 25px;
+            }
+            .info{
+                text-align: center;
+                padding-left: 0px;
+            }
+            p13{
+                padding: 0px;
+                height: 29px;
+            }
+    }
+    h6{
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .containercha{
+        width: 100%;
+        height: 350px;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-size: 100%;
+        background-image: url(../IMAGENES/selectionimagemobile1.png);
+        background-repeat: no-repeat;
+    }
+    .gridcha{
+        grid-template-columns:35% 35%;
+        grid-template-rows: 40% 40% 40%;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    
+    .button-profile{
+        border-style:none;
+        border-color:white ;
+        width: 60%;
+        height: auto;
+
+            img{
+                width: 100%;
+            }
+    }
+}

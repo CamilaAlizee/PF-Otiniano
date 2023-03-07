@@ -1,0 +1,123 @@
+.backblack{
+    background-color: #181518;
+}
+
+.grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 600px 500px;
+    grid-template-rows: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+        img{
+            width: 550px;
+            height: 400px;
+        }
+        .p{
+            font-size: 32px;
+            color: #41107E;
+        }
+}
+h4{
+    margin-top: 20px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.habout{
+    margin-bottom: 20px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+}
+.gridtexta{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 800px;
+    grid-template-rows: 250px;
+    align-items: center;
+    justify-content: center;
+        .p2{
+            font-size: 32px;
+            color: white;
+        }
+}
+.gridimages{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 420px;
+    align-items: center;
+    justify-content: center;
+        img{
+            width: 500px;
+            height: 400px;
+        }
+}
+.gridimagemo{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 420px;
+    align-items: center;
+    justify-content: center;
+        img{
+            width: 268px;
+            height: 368px;
+        }
+}
+@media (max-width:576px){
+
+    .grid{
+        margin-top: 10px;
+        grid-template-columns: 90%;
+        grid-template-rows: 50% 55%;
+        align-items: center;
+        justify-content: center;
+            img{
+                width: 90%;
+                height: auto;
+            }
+            .p{
+                font-size: 20px;
+            }
+    }
+    .gridtexta{
+        padding-top: 10px;
+        grid-template-columns: 90%;
+        grid-template-rows: 100%;
+        position: relative;
+            .p2{
+                font-size: 25px;
+            }
+    }
+    .gridimages{
+        padding-top: 30px;
+        grid-template-columns: 80%;
+        grid-template-rows: 54%;
+        padding-bottom: 30px;
+            img{
+                width: 90%;
+                height: auto;
+            }
+    }
+    h4{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .habout{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .gridimagemo{
+            img{
+                width: 100%;
+                height: auto;
+            }
+    }
+}

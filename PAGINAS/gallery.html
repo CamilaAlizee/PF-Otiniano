@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../STYLES/stylegallery.css">
+        <link rel="stylesheet" href="../CSS/main.css">
         <link rel="shortcut icon" href="../IMAGENES/Omori_Sprite.png">
         <title>OMORI</title>
     </head>
@@ -25,35 +25,36 @@
             </nav>
         </header>
         <main>
-            <div  style="text-align: center;" >
-                <button class="buttons" >CONCEPT ART</button>
-                <button class="buttons" >OMORI SKETCHBOOK</button>
+            <div  style="text-align: center;" class="title">
+                <img src="../IMAGENES/basilmemories.png" class="titlebasil">
             </div>
-            <div class="ful-img" id="fulImgBox">
-                    <img src="../IMAGENES/ALBUM1.png" id="fulImg" >
-                    <span onclick="closeImg()" >X</span>
-            </div>
-            <div class="container"> 
-                <div class="albumgrid" >
-                    <img class="imgs" src="../IMAGENES/ALBUM1.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM2.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM3.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM4.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM5.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM6.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM7.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM8.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM9.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM10.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM11.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM12.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM13.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM14.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM15.png" onclick="openFullImg(this.src)">
-                    <img class="imgs" src="../IMAGENES/ALBUM16.png" onclick="openFullImg(this.src)">
+            <div class="backalbum" >
+                <div class="ful-img" id="fulImgBox">
+                        <img src="../IMAGENES/ALBUM1.png" id="fulImg" >
+                        <span onclick="closeImg()" >X</span>
+                </div>
+            
+                <div class="container2"> 
+                    <div class="albumgrid" >
+                        <img class="imgs" id="imgs1" src="../IMAGENES/ALBUM1.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM2.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM3.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM4.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM5.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM6.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM7.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM8.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM9.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM10.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM11.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM12.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM13.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM14.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM15.png" onclick="openFullImg(this.src)">
+                        <img class="imgs" src="../IMAGENES/ALBUM16.png" onclick="openFullImg(this.src)">
+                    </div>
                 </div>
             </div>
-            
         </main>
         <footer>
             <div style="text-align:right ;">
@@ -73,7 +74,7 @@
                 </div>
             </div>
         </footer>   
-<script src="../script.js"></script>
+<script src="../JAVASCRIPT/script.js"></script>
     </body>
         
 </html>

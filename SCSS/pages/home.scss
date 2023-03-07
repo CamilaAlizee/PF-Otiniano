@@ -1,0 +1,196 @@
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+.slider-frame{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+
+    ul{
+        display: flex;
+        width: 301%;
+        animation: slide 50s infinite ease-out;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 20px;
+            li{
+                list-style: none;
+                width: 100%; 
+                img{
+                    width: 800px;
+                    height: 400px;
+                }
+            } 
+    }  
+}
+h1{
+    text-align: center;
+    border-bottom: solid;
+}
+.watch-video{
+    padding: 40px;
+    width: 600px;
+    height: 340px;
+
+}
+h2{
+    text-align: center;
+    border-bottom: solid;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.container{
+    width: 870px;
+    height: 500px;
+    background-color: black;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+        &::-webkit-scrollbar{
+            width: 10px;
+                &-thumb{
+                    background-color:rgb(81, 70, 88);
+                }
+        }
+}
+.omori-nintendo{
+    padding-top: 20px;
+    position: absolute;
+    width: 408px;
+    height: 450px;
+    margin-left: 20px;
+}
+
+.gridtopbuttons{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.gridbuttons1{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 120px 120px 120px;
+    align-items: center;
+    justify-content: right;
+    padding-right: 30px;
+}
+.gridtext{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 430px;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 20px;
+        h3{
+        color: #ffffff;
+        font-size: 33px;
+    }
+}
+
+.omori-switch{
+    width: 400px;
+    height: 600px;
+}
+.switch-buttons{
+    padding: 20px;
+    height: 30px;
+    width: 110px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: black;
+    margin: auto;
+    
+}
+
+/* Media query - Mobile */
+@media (max-width:576px){
+
+    .slider-frame{
+        margin-top: 0px;
+        ul{
+                li{
+                    list-style: none;
+                    width: 400%;
+                    img{
+                        width: 80%;
+                        height: 200px;
+                    }
+                }
+        }
+    }
+    
+    h1{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .watch-video{
+        padding:0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 80%;
+        height: 20%;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .gridtopbuttons{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+            
+    }
+    .container{
+        width: 90%;
+        padding-top: 30px;
+        overflow-y: scroll;
+            img{
+                position: relative;
+                padding-top: 0px;
+                width: 75%;
+                height: auto;
+                margin-left:10% ;
+            }
+    }
+    .gridtext{
+        grid-template-columns: 100%;
+            h3{
+                font-size: 25px;
+            }
+    }
+    .gridbuttons1{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40% 40%;
+        justify-content: right;
+        padding-right: 0px;
+        padding-bottom: 80px;
+            a{
+                img{
+                    padding: 20px;
+                    height: 30px;
+                    width: 90px;
+                    border-style: solid;
+                    border-color: #ffffff;
+                    background-color: black;
+                    margin: auto;
+                }
+            }
+    }
+}

@@ -56,8 +56,9 @@ body{
     height: 550px;
     margin: auto;
 }
-h2{
+p15{
     font-size: 40px;
+    font-weight: bold;
 }
 p{
     font-size: 25px;
@@ -102,14 +103,6 @@ p13{
     grid-template-columns:300px;
     
 }
-.buttons{
-    padding: 20px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 .containercha{
     width: 1100px;
     height: 580px;
@@ -120,6 +113,7 @@ p13{
     background-size:1300px ;
     background-image: url(../IMAGENES/selectionimage.png);
     background-size: 1080px;
+    background-repeat: no-repeat;
 }
 .gridcha{
     display: grid;
@@ -136,7 +130,7 @@ p13{
     width: 1300px;
     height: 550px;
 }
-h3{
+h6{
     text-align: center;
     color:white;
     font-size: 40px;
@@ -150,6 +144,7 @@ h3{
     width: 150px;
     height: 150px;
     margin: auto;
+        
 }
 .omorimg{
     width: 150px;
