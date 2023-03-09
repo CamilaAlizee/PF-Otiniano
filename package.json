@@ -1,6 +1,6 @@
 {
   "name": "omori",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "This is a website of the OMORI video game in which it shows you different aspects of it so that you can learn more about the game.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/app.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Camila Otiniano",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^8.0.0",
