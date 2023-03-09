@@ -12,24 +12,23 @@
     margin-top: 40px;
 }
 .container2{
+    @include center-center;
     width: 670px;
     height: 500px;
     background-image: url(../IMAGENES/backgroundalbum.png);
     background-size:cover;
     overflow: hidden;
     overflow-y: scroll;
-    text-align: center;
     align-items: center;
-    justify-content: center;
     margin: auto;
     border-style: solid;
-    border-color: black;
+    border-color: $black;
     max-width: 70%;
     margin-top: 20px;
         &::-webkit-scrollbar{
             width: 10px;
                 &-thumb{
-                    background-color:rgb(13, 2, 20);
+                    background-color:$black-violet;
                 }
         }
 }
@@ -42,13 +41,13 @@
     padding-top: 10px;
     padding-left: 50px;
     display: grid;
-    grid-template-columns: 140px 140px 140px 140px;
-    grid-template-rows: 180px 180px 180px 180px;
+    grid-template-columns: $colum140-x4;
+    grid-template-rows: $colum180-x4;
 }
 .ful-img{
     display: none;
     position: fixed;
-    background: rgba(0, 0, 0, 0.8);
+    background: $low-opacity-black;
     top: 0;
     left: 0;
     width: 100%;
@@ -57,8 +56,8 @@
     justify-content: center;
     align-items: center;
         & span{
-            background: black;
-            color: white;
+            background: $black;
+            color: $primary-color;
             width: 25px;
             height: 25px;
             margin: 10px auto;
@@ -98,8 +97,8 @@
         padding-top: 10px;
         padding-left: 10px;
         display: grid;
-        grid-template-columns: 32% 32% 32%;
-        grid-template-rows: 20% 20% 20% 20% 20% 20%;
+        grid-template-columns: $columpercent32-x3;
+        grid-template-rows: $rowpercent20-x6;
     }
     #fulImg{
         width: 60%;

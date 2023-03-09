@@ -1,0 +1,53 @@
+//colors
+
+$primary-color: #FFFFFF;
+$secundary-color: #181518;
+$tertiary-color: #8a2be2;
+$black: #000000 ;
+$black-violet: rgb(13, 2, 20);
+$low-opacity-black: rgba(0, 0, 0, 0.8);
+$grey: rgb(81, 70, 88);
+$purple: #41107E;
+
+//grid variables 
+
+$colum190-x4: 190px 190px 190px 190px;
+$row120-x3: 120px 120px 120px;
+$gridtext2-row: 50px 50px 50px 50px 50px 50px 170px;
+$gridtext2-rowmobile: 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 120px;
+$colum220-x3: 220px 220px 220px;
+$colum140-x4: 140px 140px 140px 140px;
+$colum180-x4: 180px 180px 180px 180px;
+$colum25525: 250px 500px 250px;
+
+$corowpercent40-x3: 40% 40% 40%;
+$rowpercent20-x6: 20% 20% 20% 20% 20% 20%;
+$columpercent32-x3: 32% 32% 32%;
+$columpercent25425: 25% 40% 25%;
+
+//mixin
+
+@mixin overflow-margin-margintop-paddingtop{
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+@mixin grid-center-center-center{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+@mixin grid-center-center-right{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+}
+@mixin center-center{
+    text-align: center;
+    justify-content: center;
+}
+

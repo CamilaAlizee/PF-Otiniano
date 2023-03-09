@@ -94,16 +94,18 @@ h2 {
   font-size: 35px;
   margin-bottom: 40px; }
 
+h3 {
+  margin: 0px; }
+
 .container {
-  width: 870px;
-  height: 500px;
-  background-color: black;
-  padding: 10px;
   overflow: hidden;
-  border-radius: 0px 0px 10px 10px;
   margin: auto;
   margin-top: 30px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  width: 870px;
+  height: 530px;
+  background-color: #000000;
+  padding: 10px; }
   .container::-webkit-scrollbar {
     width: 10px; }
     .container::-webkit-scrollbar-thumb {
@@ -119,44 +121,45 @@ h2 {
 .gridtopbuttons {
   display: grid;
   text-align: center;
-  grid-template-columns: 190px 190px 190px 190px;
-  grid-template-rows: 120px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  grid-template-columns: 190px 190px 190px 190px;
+  grid-template-rows: 120px; }
 
 .gridbuttons1 {
   display: grid;
   text-align: center;
+  align-items: center;
+  justify-content: right;
   grid-template-columns: 190px 190px;
   grid-template-rows: 120px 120px 120px;
-  align-items: center;
-  justify-content: right;
   padding-right: 30px; }
-
-.gridtext {
-  display: grid;
-  text-align: center;
-  grid-template-columns: 430px;
-  grid-template-rows: 100px;
-  align-items: center;
-  justify-content: right;
-  padding-bottom: 20px; }
-  .gridtext h3 {
-    color: #ffffff;
-    font-size: 33px; }
-
-.omori-switch {
-  width: 400px;
-  height: 600px; }
 
 .switch-buttons {
   padding: 20px;
   height: 30px;
   width: 110px;
   border-style: solid;
-  border-color: #ffffff;
-  background-color: black;
+  border-color: #FFFFFF;
+  background-color: #000000;
   margin: auto; }
+
+.gridtext {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  grid-template-columns: 430px;
+  grid-template-rows: 150px;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .gridtext h3 {
+    color: #FFFFFF;
+    font-size: 33px; }
+
+.omori-switch {
+  width: 400px;
+  height: 600px; }
 
 /* Media query - Mobile */
 @media (max-width: 576px) {
@@ -194,13 +197,13 @@ h2 {
       height: auto;
       margin-left: 10%; }
   .gridtext {
-    grid-template-columns: 100%; }
+    grid-template-columns: 100%;
+    grid-template-rows: 100px; }
     .gridtext h3 {
       font-size: 25px; }
   .gridbuttons1 {
     grid-template-columns: 50% 50%;
     grid-template-rows: 40% 40% 40%;
-    justify-content: right;
     padding-right: 0px;
     padding-bottom: 80px; }
     .gridbuttons1 a img {
@@ -208,8 +211,8 @@ h2 {
       height: 30px;
       width: 90px;
       border-style: solid;
-      border-color: #ffffff;
-      background-color: black;
+      border-color: #FFFFFF;
+      background-color: #000000;
       margin: auto; } }
 
 .backblack {
@@ -218,10 +221,10 @@ h2 {
 .grid {
   display: grid;
   text-align: center;
-  grid-template-columns: 600px 500px;
-  grid-template-rows: 400px;
   align-items: center;
   justify-content: center;
+  grid-template-columns: 600px 500px;
+  grid-template-rows: 400px;
   margin-top: 50px;
   margin-bottom: 30px; }
   .grid img {
@@ -233,37 +236,37 @@ h2 {
 
 h4 {
   margin-top: 20px;
-  color: white;
-  background-color: blueviolet;
+  color: #FFFFFF;
+  background-color: #8a2be2;
   text-align: center;
   font-size: 40px;
   margin-bottom: 0px; }
 
 .habout {
   margin-bottom: 20px;
-  color: white;
-  background-color: blueviolet;
+  color: #FFFFFF;
+  background-color: #8a2be2;
   text-align: center;
   font-size: 40px; }
 
 .gridtexta {
   display: grid;
   text-align: center;
-  grid-template-columns: 800px;
-  grid-template-rows: 250px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  grid-template-columns: 800px;
+  grid-template-rows: 250px; }
   .gridtexta .p2 {
     font-size: 32px;
-    color: white; }
+    color: #FFFFFF; }
 
 .gridimages {
   display: grid;
   text-align: center;
-  grid-template-columns: 600px 600px;
-  grid-template-rows: 420px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 420px; }
   .gridimages img {
     width: 500px;
     height: 400px; }
@@ -271,9 +274,9 @@ h4 {
 .gridimagemo {
   display: grid;
   text-align: center;
-  grid-template-rows: 420px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  grid-template-rows: 420px; }
   .gridimagemo img {
     width: 268px;
     height: 368px; }
@@ -282,9 +285,7 @@ h4 {
   .grid {
     margin-top: 10px;
     grid-template-columns: 90%;
-    grid-template-rows: 50% 55%;
-    align-items: center;
-    justify-content: center; }
+    grid-template-rows: 50% 55%; }
     .grid img {
       width: 90%;
       height: auto; }
@@ -319,12 +320,12 @@ h4 {
   background-image: url(../IMAGENES/omoriwhitespace.png); }
 
 .infocontainer {
-  width: 900px;
-  height: 690px;
   overflow: hidden;
   margin: auto;
   margin-top: 30px;
   padding-top: 50px;
+  width: 900px;
+  height: 690px;
   background-size: 1300px;
   padding-left: 200px;
   padding-right: 200px; }
@@ -348,10 +349,10 @@ p13 {
 .gridtext1 {
   display: grid;
   text-align: center;
-  grid-template-columns: 600px;
-  grid-template-rows: 20px 100px;
   align-items: center;
   justify-content: right;
+  grid-template-columns: 600px;
+  grid-template-rows: 20px 100px;
   padding-top: 20px; }
   .gridtext1 p {
     font-size: 25px;
@@ -363,15 +364,15 @@ p13 {
 .gridtext2 {
   display: grid;
   text-align: center;
-  grid-template-columns: 200px 290px;
-  grid-template-rows: 50px 50px 50px 50px 50px 50px 170px;
   align-items: center;
   justify-content: right;
+  grid-template-columns: 200px 290px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 170px;
   padding-bottom: 20px;
   padding-right: 40px; }
   .gridtext2 .impinfo {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
     font-size: 25px;
     justify-content: center;
     align-items: center; }
@@ -382,17 +383,17 @@ p13 {
 
 h6 {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   font-size: 40px;
-  background-color: black; }
+  background-color: #000000; }
 
 .containercha {
-  width: 1100px;
-  height: 580px;
   overflow: hidden;
   margin: auto;
   margin-top: 30px;
   padding-top: 50px;
+  width: 1100px;
+  height: 580px;
   background-size: 1300px;
   background-image: url(../IMAGENES/selectionimage.png);
   background-size: 1080px;
@@ -401,10 +402,10 @@ h6 {
 .gridcha {
   display: grid;
   text-align: center;
-  grid-template-columns: 220px 220px 220px;
-  grid-template-rows: 220px 220px;
   align-items: center;
   justify-content: center;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: 220px 220px;
   padding-top: 30px;
   padding-right: 20px; }
 
@@ -412,7 +413,7 @@ h6 {
   cursor: pointer;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  border-color: #FFFFFF;
   width: 150px;
   height: 150px;
   margin: auto; }
@@ -451,8 +452,6 @@ h6 {
       margin-top: 0px;
       margin-bottom: 30px; }
   .gridtext2 {
-    display: grid;
-    text-align: center;
     grid-template-columns: 60%;
     grid-template-rows: 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 120px;
     justify-content: center;
@@ -486,7 +485,6 @@ h6 {
     padding-right: 0px; }
   .button-profile {
     border-style: none;
-    border-color: white;
     width: 60%;
     height: auto; }
     .button-profile img {
@@ -494,10 +492,11 @@ h6 {
 
 .chagrid {
   display: grid;
-  grid-template-columns: 250px 500px 250px;
-  grid-template-rows: 200px;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  grid-template-columns: 250px 500px 250px;
+  grid-template-rows: 200px;
   padding-bottom: 20px;
   position: relative;
   top: 150px;
@@ -522,11 +521,11 @@ h6 {
   margin: auto; }
 
 #grid {
-  display: grid;
   text-align: center;
-  grid-template-columns: 1006px;
-  grid-template-rows: 30px 300px;
   justify-content: center;
+  display: grid;
+  grid-template-columns: 1006px;
+  grid-template-rows: 33px 300px;
   padding-bottom: 30px;
   position: relative; }
 
@@ -540,8 +539,8 @@ h6 {
   width: 1006px; }
 
 #go-button {
-  background-color: blueviolet;
-  color: white;
+  background-color: #8a2be2;
+  color: #FFFFFF;
   font-size: 30px;
   text-decoration: none; }
 
@@ -595,18 +594,18 @@ h6 {
   margin-top: 40px; }
 
 .container2 {
+  text-align: center;
+  justify-content: center;
   width: 670px;
   height: 500px;
   background-image: url(../IMAGENES/backgroundalbum.png);
   background-size: cover;
   overflow: hidden;
   overflow-y: scroll;
-  text-align: center;
   align-items: center;
-  justify-content: center;
   margin: auto;
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
   max-width: 70%;
   margin-top: 20px; }
   .container2::-webkit-scrollbar {
@@ -638,8 +637,8 @@ h6 {
   justify-content: center;
   align-items: center; }
   .ful-img span {
-    background: black;
-    color: white;
+    background: #000000;
+    color: #FFFFFF;
     width: 25px;
     height: 25px;
     margin: 10px auto;

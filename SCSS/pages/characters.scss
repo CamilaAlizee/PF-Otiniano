@@ -3,13 +3,9 @@
     background-image: url(../IMAGENES/omoriwhitespace.png);
 }
 .infocontainer{
+    @include overflow-margin-margintop-paddingtop;
     width: 900px;
     height: 690px;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 50px;
-    
     background-size:1300px ;
     padding-left: 200px;
     padding-right: 200px;
@@ -37,12 +33,9 @@ p13{
 
 
 .gridtext1{
-    display: grid;
-    text-align: center;
+    @include grid-center-center-right;
     grid-template-columns: 600px;
     grid-template-rows: 20px 100px;
-    align-items: center;
-    justify-content: right;
     padding-top: 20px;
         p{
             font-size: 25px;
@@ -54,17 +47,14 @@ p13{
         }
 }
 .gridtext2{
-    display: grid;
-    text-align: center;
+    @include grid-center-center-right;
     grid-template-columns: 200px 290px;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 170px;
-    align-items: center;
-    justify-content: right;
+    grid-template-rows: $gridtext2-row;
     padding-bottom: 20px;
     padding-right: 40px;
         .impinfo{
-            background-color: black;
-            color: white;
+            background-color: $black;
+            color: $primary-color;
             font-size: 25px;
             justify-content: center;
             align-items: center;
@@ -77,29 +67,23 @@ p13{
 }
 h6{
     text-align: center;
-    color:white;
+    color:$primary-color;
     font-size: 40px;
-    background-color: black;
+    background-color: $black;
 }
 .containercha{
+    @include overflow-margin-margintop-paddingtop;
     width: 1100px;
     height: 580px;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 50px;
     background-size:1300px ;
     background-image: url(../IMAGENES/selectionimage.png);
     background-size: 1080px;
     background-repeat: no-repeat;
 }
 .gridcha{
-    display: grid;
-    text-align: center;
-    grid-template-columns:220px 220px 220px;
+    @include grid-center-center-center;
+    grid-template-columns: $colum220-x3;
     grid-template-rows: 220px 220px;
-    align-items: center;
-    justify-content: center;
     padding-top: 30px;
     padding-right: 20px;
 }
@@ -108,7 +92,7 @@ h6{
     cursor: pointer;
     border-style:solid;
     border-width: 2px;
-    border-color:white ;
+    border-color:$primary-color ;
     width: 150px;
     height: 150px;
     margin: auto;
@@ -156,10 +140,8 @@ h6{
             }
     }
     .gridtext2{
-        display: grid;
-        text-align: center;
         grid-template-columns: 60%;
-        grid-template-rows: 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 35px 45px 120px;
+        grid-template-rows: $gridtext2-rowmobile;
         justify-content: center;
         padding-bottom: 20px;
         padding-right: 0px;
@@ -192,14 +174,13 @@ h6{
     }
     .gridcha{
         grid-template-columns:35% 35%;
-        grid-template-rows: 40% 40% 40%;
+        grid-template-rows: $corowpercent40-x3;
         padding-top: 0px;
         padding-right: 0px;
     }
     
     .button-profile{
         border-style:none;
-        border-color:white ;
         width: 60%;
         height: auto;
 

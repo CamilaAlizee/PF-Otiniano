@@ -1,10 +1,8 @@
 
 .chagrid{
-    display: grid;
-    grid-template-columns: 250px 500px 250px;
+    @include grid-center-center-center;
+    grid-template-columns: $colum25525;
     grid-template-rows: 200px;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 20px;
     position: relative;
     top: 150px;
@@ -30,11 +28,10 @@
     margin: auto;
 }
 #grid{
+    @include center-center;
     display: grid;
-    text-align: center;
     grid-template-columns: 1006px;
-    grid-template-rows: 30px 300px ;
-    justify-content: center;
+    grid-template-rows: 33px 300px ;
     padding-bottom: 30px;
     position: relative;
 }
@@ -49,8 +46,8 @@
 }
 
 #go-button{
-    background-color: blueviolet;
-    color: white;
+    background-color: $tertiary-color;
+    color: $primary-color;
     font-size: 30px;
     text-decoration: none;
 }
@@ -66,7 +63,7 @@
 @media (max-width:576px){
 
     .chagrid{
-        grid-template-columns: 25% 40% 25%;
+        grid-template-columns: $columpercent25425;
         grid-template-rows: 60%;
         top: 30px;
     }
@@ -104,6 +101,4 @@
     #footermerch{
         position: static;
     }
-    
-
 }

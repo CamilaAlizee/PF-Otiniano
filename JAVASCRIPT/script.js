@@ -21,7 +21,7 @@ omoriBtn.onclick = function(){
     document.getElementById("RELATIONS").innerHTML = "HERO (FRIEND) <br> KEL (FRIEND) <br>AUBREY (FRIEND) <br> BASIL (BEST FRIEND)";
 }
 aubreyBtn.onclick = function(){
-    imgchange.src = "../IMAGENES/aubrey_Fullbody.png";
+    imgchange.src = "../IMAGENES/Aubrey_Fullbody.png";
     document.getElementById("NAME").innerHTML = "AUBREY";
     document.getElementById("INFO").innerHTML = "The sweet and strong-willed AUBREY stands up for her <br> friends in battle and is their constant source of morale.";
     document.getElementById("GENDER").innerHTML = "FEMALE";

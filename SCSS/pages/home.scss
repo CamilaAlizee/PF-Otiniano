@@ -48,20 +48,19 @@ h2{
     font-size: 35px;
     margin-bottom: 40px;
 }
+h3{
+    margin: 0px
+}
 .container{
+    @include overflow-margin-margintop-paddingtop;
     width: 870px;
-    height: 500px;
-    background-color: black;
+    height: 530px;
+    background-color: $black;
     padding: 10px;
-    overflow: hidden;
-    border-radius: 0px 0px 10px 10px;
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 50px;
         &::-webkit-scrollbar{
             width: 10px;
                 &-thumb{
-                    background-color:rgb(81, 70, 88);
+                    background-color:$grey;
                 }
         }
 }
@@ -74,32 +73,41 @@ h2{
 }
 
 .gridtopbuttons{
-    display: grid;
-    text-align: center;
-    grid-template-columns: 190px 190px 190px 190px;
+    @include grid-center-center-center;
+    grid-template-columns: $colum190-x4;
     grid-template-rows: 120px;
-    align-items: center;
-    justify-content: center;
 }
+
 .gridbuttons1{
-    display: grid;
-    text-align: center;
+    @include grid-center-center-right;
     grid-template-columns: 190px 190px;
-    grid-template-rows: 120px 120px 120px;
-    align-items: center;
-    justify-content: right;
+    grid-template-rows: $row120-x3;
     padding-right: 30px;
+        a{
+            img{
+                
+    
+            }
+        }
 }
+.switch-buttons{
+    padding: 20px;
+    height: 30px;
+    width: 110px;
+    border-style: solid;
+    border-color: $primary-color;
+    background-color: $black;
+    margin: auto;
+}
+
 .gridtext{
-    display: grid;
-    text-align: center;
+    @include grid-center-center-right;
     grid-template-columns: 430px;
-    grid-template-rows: 100px;
-    align-items: center;
-    justify-content: right;
+    grid-template-rows: 150px;
     padding-bottom: 20px;
+    padding-top: 20px;
         h3{
-        color: #ffffff;
+        color: $primary-color;
         font-size: 33px;
     }
 }
@@ -107,16 +115,6 @@ h2{
 .omori-switch{
     width: 400px;
     height: 600px;
-}
-.switch-buttons{
-    padding: 20px;
-    height: 30px;
-    width: 110px;
-    border-style: solid;
-    border-color: #ffffff;
-    background-color: black;
-    margin: auto;
-    
 }
 
 /* Media query - Mobile */
@@ -171,14 +169,14 @@ h2{
     }
     .gridtext{
         grid-template-columns: 100%;
+        grid-template-rows: 100px;
             h3{
                 font-size: 25px;
             }
     }
     .gridbuttons1{
         grid-template-columns: 50% 50%;
-        grid-template-rows: 40% 40% 40%;
-        justify-content: right;
+        grid-template-rows: $corowpercent40-x3;
         padding-right: 0px;
         padding-bottom: 80px;
             a{
@@ -187,8 +185,8 @@ h2{
                     height: 30px;
                     width: 90px;
                     border-style: solid;
-                    border-color: #ffffff;
-                    background-color: black;
+                    border-color: $primary-color;
+                    background-color: $black;
                     margin: auto;
                 }
             }
